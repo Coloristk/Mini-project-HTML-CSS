@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Mini project HTML&CSS</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -110,31 +117,57 @@
         </nav>
       </logos>
     <!-- bas -->
-    <section name="presentation-section">
-      <div name="presentation-container">
-        <div name="presentation-img">
-          <img src="images/presentation.png" alt="images-presentation" />
+    <section
+      name="presentation-section"
+      class="flex flex-col justify-center items-center w-[375px] h-[876px] top-[1535px]"
+    >
+      <div
+        name="presentation-container"
+        class="flex flex-col justify-center items-center w-[344.9px] h-[762.74px] top-[33.11px] left-[20.46px]"
+      >
+        <div name="presentation-img" class="flex">
+          <img
+            src="images/presentation.png"
+            alt="images-presentation"
+            class="w-[344.9px] h-[326.28] top-[33.11px] left-[20.46]"
+          />
         </div>
-        <div name="presentation-text">
-          <h2>We Help to Create Possibility & Success in Your Career!</h2>
-          <p>
+        <div
+          name="presentation-text"
+          class="flex flex-col w-[327px] h-[392px] top-[403.85px] left-[24px] rounded-[24px]"
+        >
+          <h2
+            class="w-full h-[102px] top-[403px] left-[24px] font-poppins font-bold text-2xl leading-[34px] text-[#111116]"
+          >
+            We Help to Create Possibility & Success in Your Career!
+          </h2>
+          <p
+            class="w-full h-[180px] top-[521.85px] left-[24px] font-rubik font-normal text-lg text-[#6F6F76]"
+          >
             Continually administrate process-centric human capital rather than
             bleeding-edge methodologies. Distinctively supply accurate methods
             of empowerment before.
           </p>
-          <button>Get Started Today</button>
+          <button
+            class="w-[205px] h-[64px] top-[731.85] left-[24px] rounded-[15px] bg-[#FFA502] text-white"
+          >
+            Get Started Today
+          </button>
         </div>
       </div>
     </section>
 
-    <section name="blog-section">
+    <section
+      name="blog-section "
+      class="flex flex-col justify-center items-center w-[375px] h-[1946px] top-[2411px]"
+    >
       <div name="blog-container">
-        <div name="blog-group">
+        <div name="blog-group" class="font-poppins">
           <h2>We Have Most of Popular Departments</h2>
           <article name="A1"></article>
           <article name="A2"></article>
           <article name="A3"></article>
-          <button>View All Department</button>
+          <button class="bg-orange-500">View All Department</button>
         </div>
       </div>
     </section>
