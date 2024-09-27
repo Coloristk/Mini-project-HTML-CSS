@@ -3,13 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Mini project HTML&CSS</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <!-- Him -->
     <header
-      class="bg-gradient-to-b from-[#FFFBF4] to-[#F7FCF9] w-[1920px] h-[960px] sm:flex flex-row"
+      class="bg-gradient-to-b from-[#FFFBF4] to-[#F7FCF9] w-full h-[960px] sm:flex flex-row"
     >
       <nav class="flex px-5">
         <ul class="flex flex-row justify-between sm:px-2 sm:py-5">
@@ -87,7 +94,7 @@
         </div>
       </div>
     </header>
-    <logos class="w-full h-auto sm:w-[1920px] sm:h-[342px] items-center px-10">
+    <logos class="w-full h-auto items-center px-10">
         <nav class="flex flex-col items-center">
           <h1 class="w-full sm:w-[405px] h-[58px] text-2xl sm:text-4xl font-bold text-center">Trusted Companies</h1>
           <div class="flex flex-wrap justify-center sm:py-5">
@@ -109,11 +116,158 @@
           </div>
         </nav>
       </logos>
+    <!-- bas -->
+    <section
+      name="presentation-section"
+      class="flex flex-col sm:flex-row justify-center items-center w-full h-fit mb-14 mt-10"
+    >
+      <div
+        name="presentation-container"
+        class="flex flex-col sm:flex-row justify-center sm:justify-between items-center w-[344.9px] sm:w-[1420px] h-fit sm:px-24"
+      >
+        <div name="presentation-img" class="flex">
+          <img
+            src="images/presentation.png"
+            alt="images-presentation"
+            class="w-[344.9px] sm:w-[668.06px] h-auto"
+          />
+        </div>
+        <div
+          name="presentation-text"
+          class="flex flex-col w-[327px] sm:w-[453px] h-fit rounded-[24px] sm:rounded-[15px] gap-10"
+        >
+          <h2
+            class="w-full h-fit font-poppins font-bold text-2xl sm:text-5xl leading-[34px] text-[#111116]"
+          >
+            We Help to Create Possibility & Success in Your Career!
+          </h2>
+          <p
+            class="w-full h-fit font-rubik font-normal text-lg sm:text-2xl text-[#6F6F76]"
+          >
+            Continually administrate process-centric human capital rather than
+            bleeding-edge methodologies. Distinctively supply accurate methods
+            of empowerment before.
+          </p>
+          <button
+            class="w-[205px] h-[64px] top-[731.85] left-[24px] rounded-[15px] bg-[#FFA502] text-white font-rubik font-medium text-[16px]"
+          >
+            Get Started Today
+          </button>
+        </div>
+      </div>
+    </section>
 
-    <!--  -->
-
-    <!--  -->
-
-    <!--  -->
+    <section
+      name="blog-section "
+      class="flex flex-col justify-center items-center w-full h-fit sm:px-24"
+    >
+      <div
+        name="blog-container"
+        class="flex flex-col justify-center items-center w-full h-fit bg-[#FFFBF4] sm:gap-16 sm:p-20"
+      >
+        <h2
+          class="w-[266px] sm:w-[500px] h-fit font-poppins font-bold text-2xl sm:text-5xl self-center text-center"
+        >
+          We Have Most of Popular Departments
+        </h2>
+        <div
+          name="blog-group"
+          class="flex flex-col justify-center items-center sm:flex-row gap-6 w-full h-fit"
+        >
+          <article
+            name="A1"
+            class="flex flex-col w-[355px] h-512px top-[1249.85px] letf-[10px] rounded-[20px] bg-[#FFFFFF] px-5 pt-5 pb-5"
+          >
+            <div
+              class="w-full h-[280px] top-[201.85px] left-[34px] rounded-t-[20px] bg-[#C4C4C4] mb-4"
+            ></div>
+            <div class="w-[307px] h-[108px] top-[505.85px] left-[34px]">
+              <h2 class="font-poppins font-bold text-[24px] text-[#3B3B3B]">
+                Artificial Intelligence
+              </h2>
+              <p class="font-rubik font-normal text-[18px] text-[#6F6F76]">
+                Assertively parallel task synergistic deliverables after
+                high-quality.
+              </p>
+            </div>
+            <div class="flex flex-row">
+              <p
+                class="w-[87px] h-[26px] top-[1705.85px] left-[34px] font-rubik font-medium text-base text-[#FFA502]"
+              >
+                Learn More
+              </p>
+              <img
+                src="images/bi_arrow-left.svg"
+                alt=""
+                class="w-[47px] h-[24px] top-[1706.85px] left-[161px]"
+              />
+            </div>
+          </article>
+          <article
+            name="A2"
+            class="flex flex-col w-[355px] h-512px top-[1249.85px] letf-[10px] rounded-[20px] bg-[#FFFFFF] px-5 pt-5 pb-5"
+          >
+            <div
+              class="w-full h-[280px] top-[201.85px] left-[34px] rounded-t-[20px] bg-[#C4C4C4] mb-4"
+            ></div>
+            <div class="w-[307px] h-[108px] top-[505.85px] left-[34px]">
+              <h2 class="font-poppins font-bold text-[24px] text-[#3B3B3B]">
+                Civil Engineering
+              </h2>
+              <p class="font-rubik font-normal text-[18px] text-[#6F6F76]">
+                Assertively parallel task synergistic deliverables after
+                high-quality.
+              </p>
+            </div>
+            <div class="flex flex-row">
+              <p
+                class="w-[87px] h-[26px] top-[1705.85px] left-[34px] font-rubik font-medium text-base text-[#FFA502]"
+              >
+                Learn More
+              </p>
+              <img
+                src="images/bi_arrow-left.svg"
+                alt=""
+                class="w-[47px] h-[24px] top-[1706.85px] left-[161px]"
+              />
+            </div>
+          </article>
+          <article
+            name="A3"
+            class="flex flex-col w-[355px] h-512px top-[1249.85px] letf-[10px] rounded-[20px] bg-[#FFFFFF] px-5 pt-5 pb-5"
+          >
+            <div
+              class="w-full h-[280px] top-[201.85px] left-[34px] rounded-t-[20px] bg-[#C4C4C4] mb-4"
+            ></div>
+            <div class="w-[307px] h-[108px] top-[505.85px] left-[34px]">
+              <h2 class="font-poppins font-bold text-[24px] text-[#3B3B3B]">
+                Business Studies
+              </h2>
+              <p class="font-rubik font-normal text-[18px] text-[#6F6F76]">
+                Assertively parallel task synergistic deliverables after
+                high-quality.
+              </p>
+            </div>
+            <div class="flex flex-row">
+              <p
+                class="w-[87px] h-[26px] top-[1705.85px] left-[34px] font-rubik font-medium text-base text-[#FFA502]"
+              >
+                Learn More
+              </p>
+              <img
+                src="images/bi_arrow-left.svg"
+                alt=""
+                class="w-[47px] h-[24px] top-[1706.85px] left-[161px]"
+              />
+            </div>
+          </article>
+        </div>
+        <button
+          class="w-[205px] h-[64px] top-[700.85px] left-[24px] rounded-[15px] bg-[#FFA502] text-white flex items-center justify-center p-5 self-center font-rubik font-medium text-[16px]"
+        >
+          View All Department
+        </button>
+      </div>
+    </section>
   </body>
 </html>
